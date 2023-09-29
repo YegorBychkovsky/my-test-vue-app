@@ -12,14 +12,14 @@ import Swiper from "./Swiper.vue";
       Вища Бухгалтерська Online-Академія
     </p>
 
-    <p
+    <h1
       class="font-[e-UkraineHeadBold] text-5xl font-bold leading-3xl tracking-normal text-center 375:text-[24px]"
     >
       Підвищення <br class="hidden 375:inline" />
       кваліфікації <br />
       та профперепідготовка <br class="hidden 375:inline" />
       для бухгалтерів
-    </p>
+    </h1>
     <Button class="mt-10" :buttonText="'Обрати навчання >>'" />
     <div class="flex justify-center items-center mt-10 375:hidden">
       <img :src="featuresImage" alt="" class="max-w-full" />

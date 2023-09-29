@@ -6,8 +6,6 @@ const props = defineProps({
   firstCourse: Boolean,
   secondCourse: Boolean,
 });
-console.log(props.firstCourse);
-console.log(props.secondCourse);
 </script>
 
 <template>
@@ -27,7 +25,10 @@ console.log(props.secondCourse);
           />
           <img v-else :src="crossSymbol" alt="Крестик" />
         </td>
-        <td class="w-[55%] text-start" v-html="item.name"></td>
+        <td
+          class="w-[55%] text-start 375:pr-[10px]"
+          v-html="item.name"
+        ></td>
       </tr>
     </tbody>
   </table>

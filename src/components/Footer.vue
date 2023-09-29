@@ -5,7 +5,7 @@ import Form from "./Form.vue";
 <template>
   <footer class="grid grid-cols-2 375:grid-cols-1 text-center">
     <Form />
-    <div class="pl-[70px] 375:pl-[40px] mt-[30px]">
+    <div class="pl-[70px] 375:px-[40px] mt-[30px]">
       <p class="font-[e-Ukraine] text-[23px] font-[700] 375:text-start">
         З передплатою Аkадемії ви <br />отримаєте:
       </p>

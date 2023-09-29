@@ -39,10 +39,7 @@ async function submitForm() {
 </script>
 
 <template>
-  <form
-    @submit.prevent="submitForm"
-    class="pr-[70px] 375:pr-[0px] pl-[30px]"
-  >
+  <form @submit.prevent="submitForm" class="pr-[70px] 375:px-[30px]">
     <p
       class="font-[e-Ukraine] text-[23px] font-[700] mb-[20px] 375:text-start pr-[80px]"
     >
