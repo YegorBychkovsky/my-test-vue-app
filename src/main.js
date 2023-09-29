@@ -1,4 +1,9 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import "tailwindcss/tailwind.css";
 
-createApp(App).mount('#app')
+import { createApp } from "vue";
+import "../styles/input.css";
+import "../styles/reset.css";
+
+import App from "./App.vue";
+
+createApp(App).mount("#app");
